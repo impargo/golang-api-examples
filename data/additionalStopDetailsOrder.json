@@ -1,0 +1,54 @@
+{
+  "reference": "Ref XYZ",
+  "load": {
+    "bodyType": "TENT",
+    "equipmentExchange": false,
+    "length": 13.6,
+    "weight": 24
+  },
+  "stops": [
+    {
+      "location": {
+        "city": "Berlin, Willsnackerstr. 33",
+        "zipcode": "10559",
+        "country": "de"
+      },
+      "operationType": "LOADING",
+      "comment": "Please load some goods here",
+      "date": {
+        "from": "2022-12-08T10:07:07.330Z",
+        "to": "2022-12-09T10:07:07.330Z"
+      },
+      "time": {
+        "from": "08:00",
+        "to": "17:00"
+      }
+    },
+    {
+      "location": {
+        "city": "Autohof",
+        "coordinates": {
+          "lat": 52.334117496260,
+          "lon": 9.4140303693830
+        }
+      },
+      "operationType": "PARKING",
+      "waitingTime": 8,
+      "comment": "Parking spot to spend the night."
+    },
+    {
+      "location": {
+        "city": "Paris"
+      },
+      "operationType": "UNLOADING",
+      "date": {
+        "from": "2020-12-08T10:07:07.330Z",
+        "to": "2020-12-10T10:07:07.330Z"
+      },
+      "time": {
+        "from": "08:00",
+        "to": "17:00"
+      }
+    }
+  ]
+}
