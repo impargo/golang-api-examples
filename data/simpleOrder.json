@@ -1,0 +1,14 @@
+{
+  "stops": [
+    {
+      "location": {
+        "city": "Berlin"
+      }
+    },
+    {
+      "location": {
+        "city": "Paris"
+      }
+    }
+  ]
+}
