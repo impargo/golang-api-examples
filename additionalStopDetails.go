@@ -32,7 +32,7 @@ func main() {
 
 	endpoint := os.Getenv("ENDPOINT")
 	if endpoint == "" {
-		endpoint = "https://dev.backend.impargo.eu/"
+		endpoint = "https://backend.impargo.eu/"
 	}
 
 	token := os.Getenv("TOKEN")
